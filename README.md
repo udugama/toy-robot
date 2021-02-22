@@ -7,7 +7,7 @@
  - npm install -g yarn
  - yarn
 ### Run sample script to test toy robot movement: 
- - yarn run
+ - yarn start
 ### Tests and test coverage: 
   - yarn test
 ### Lint: 
