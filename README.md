@@ -1,23 +1,23 @@
 # Toy Robot Simulator
 
-Name: Prasad Udugama
-Email: udugama@gmail.com
-Node version: 12 or later version
-Setup:
+### Name: Prasad Udugama
+### Email: udugama@gmail.com
+### Node version: 12 or later version
+### Setup:
  - npm install -g yarn
  - yarn
-Run sample script to test toy robot movement: 
+### Run sample script to test toy robot movement: 
  - yarn run
-Tests and test coverage: 
+### Tests and test coverage: 
   - yarn test
-Lint: 
+### Lint: 
   - yarn lint
-
-Posible improvements: 
+  
+### Posible improvements: 
   - add command line ability to run robot commands posibly using `commander.js` or similer package.
   - improve the test coverage
 
-Thanks and hope to hear the feedback :)
+### Thanks and hope to hear the feedback :)
 
 ## Description:
 - The application is a simulation of a toy robot moving on a square tabletop
