@@ -1,0 +1,35 @@
+{
+  "name": "toy-robot-test",
+  "version": "1.0.0",
+  "description": "nodejs app to simulate a toy robot moving on a square table top",
+  "main": "",
+  "type": "module",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/udugama/toy-robot.git"
+  },
+  "scripts": {
+    "start": "node --experimental-modules ./handler.js",
+    "lint": "eslint ./handler.js",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "nodejs",
+    "robot",
+    "coding-exercise"
+  ],
+  "author": "Prasad Udugama",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.13",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
+    "jest": "^24.9.0"
+  }
+}
